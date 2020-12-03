@@ -1,3 +1,10 @@
+document.addEventListener("DOMContentLoaded", function () {
+    pTag = document.querySelector("div");
+    newVal = document.createElement("p");
+    newVal.innerHTML = '';
+    pTag.appendChild(newVal);
+});
+
 const board_border = 'black';
 const board_background = "white";
 const snake_col = 'lightblue';
